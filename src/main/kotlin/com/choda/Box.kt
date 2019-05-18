@@ -47,10 +47,6 @@ open class Box(var length: Float,var width: Float,var height: Int){
     }
 }
 
-class Box3():Box(24.0f, 14.0f, 13){
+class Box3:Box(24.0f, 14.0f, 13)
 
-}
-
-class  Box5():Box(39.5f,27.5f,23){
-
-}
+class Box5:Box(39.5f,27.5f,23)
